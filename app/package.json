@@ -1,0 +1,22 @@
+{
+    "name": "node-getting-started",
+    "version": "1.0.0",
+    "description": "Hello world app with express 4",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "debug": "node --inspect-brk=0.0.0.0:9229 app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/okteto/node-getting-started.git"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "fastify": "^3.11.0",
+        "morgan": "^1.10.0",
+        "querystring": "^0.2.0",
+        "url": "^0.11.0"
+    }
+}
