@@ -1,9 +1,8 @@
 name: hhjens-stack
 services:
   app: 
-    command: bash
     public: true
-    image: okteto/node:12
+    image: okteto.dev/app
     build: app
     replicas: 2
     ports:
